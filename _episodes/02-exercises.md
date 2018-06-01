@@ -12,9 +12,9 @@ keypoints:
 
 This is our first exercise.
 
-~~~
+
 print("Hello Carpentries instructors!")
-~~~
+
 {: .language-python}
 
 ~~~
@@ -22,14 +22,14 @@ Hello Carpentries instructors!
 ~~~
 {: .output}
 
-~~~
+
 x <- c(4,)
-~~~
+
 {: .language-r}
 
-~~~
+
 Missing element after comma
-~~~
+
 {: .error}
 
 ```{r}
