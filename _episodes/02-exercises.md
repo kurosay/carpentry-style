@@ -1,26 +1,69 @@
 ---
-title: "Introduction"
-teaching: 30
+title: "Introduction to Exercises"
+teaching: 20
 exercises: 10
 questions:
-- "How to create exercises"
-objective
-- " Know how to write exercise"
-----
+- "How to write a exercise?"
+objectives:
+- "Know how to write a exercise."
+keypoints:
+- "Exercises are write inside `>`-block."
+---
 
 This is our first exercise.
 
-> ## What is needed in a exercise
->
-> list all the elements that you need inside an exercise to compile with the Carpentries style.
+~~~
+print("Hello Carpentries instructors!")
+~~~
+{: .language-python}
+
+~~~
+Hello Carpentries instructors!
+~~~
+{: .output}
+
+~~~
+x <- c(4,)
+~~~
+{: .language-r}
+
+~~~
+Missing element after comma
+~~~
+{: .error}
+
+```{r}
+4 -> x
+```
+
+> ## What is need in a exercise
+> 
+> List all the elements that you need inside a exercise
+> to comply with the Carpentries style.
 >
 > > ## Solution
-> > Exercise are inside a `>` -block and each block must have
-> > 
+> >
+> > Exercises are inside a `>`-block and each block must have
+> >
 > > - one title
-> > - second title
-> > - third title
-
+> > - exercise body
+> > - solution to exercise
 > {: .solution}
 {: .challenge}
 
+You can use code blocks inside exercises.
+
+> ## How to use R code in R Markdown
+> 
+> Provide one example of one R code
+> that is going to be run by R Markdown.
+>
+> > ## Solution
+> >
+> > ```{r}
+> > x <- 1
+> > 1 -> y
+> > x + y
+> > ```
+> {: .solution}
+{: .challenge}
