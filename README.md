@@ -1,4 +1,4 @@
-# FIXME Lesson title
+# My first carpenty lesson
 
 FIXME
 
