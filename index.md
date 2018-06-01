@@ -7,7 +7,7 @@ Making a lesson lesson.
 
 > ## Prerequisites
 >
-> FIXME
+> Have a GitHub account
 {: .prereq}
 
 {% include links.md %}
